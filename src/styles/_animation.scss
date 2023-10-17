@@ -1,0 +1,23 @@
+.animation-block {
+  border-bottom: black 2px dotted;
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.start-animation{
+  animation-name: slide;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: calc(100% - 119px);
+  }
+}

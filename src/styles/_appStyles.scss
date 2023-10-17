@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+.nav, .garage-section, .winners-section {
+  margin: 4px;
+}
+  
+.block {
+  display: block;
+}
+  
+.none {
+  display: none;
+}
+
+button, input {
+  background-color: #F5F4F4;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-family: $font-family;
+  margin-right: 5px;
+  transition: .4s;
+  &:hover {
+    background-color: #dcdbdb;
+  }
+}
+
+.nav-button {
+  margin-bottom: 15px;
+}
+
+.nav-button-garage {
+  margin-right: 10px;
+}
+
+.input-create, .input-update {
+  align-items: center;
+  display: flex;
+  padding-bottom: 4px;
+}
+  
+.common-buttons {
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.car-block {
+  padding: 4px 2px;
+}
+
+.border-block {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding: 3px 1px;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-row {
+  height: 65px;
+}
+
+td {
+  text-align: center;
+}
+  
